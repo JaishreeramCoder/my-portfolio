@@ -189,7 +189,7 @@ export default function Research() {
 
                 <div className="mt-6 space-y-2 text-slate-700">
                   <ul role="list" className="space-y-2 pl-0 list-none">
-                    <Bullet>Implemented GRPO and DAPO algorithms from scratch in Python for card-counting Blackjack environments</Bullet>
+                    <Bullet>Implemented DeepSeek’s GRPO algorithm from scratch in Python for card-counting Blackjack environments</Bullet>
                     <Bullet>Among the first GRPO implementations outside LLMs settings and the very first implementation for Blackjack</Bullet>
                     <Bullet>Developed Monte Carlo and PPO baseline models; benchmarked GRPO, boosting win% by ∼1.2% to 44.39%</Bullet>
                     <Bullet>Deployed a web app (React/FastAPI/Tailwind) integrating the model to suggest optimal Blackjack moves to users</Bullet>
@@ -504,7 +504,7 @@ export default function Research() {
                 <div className="mt-6 space-y-2 text-slate-700">
                   <ul role="list" className="space-y-2 pl-0 list-none">
                     <Bullet>Developed a Chrome extension in JavaScript adding a friends leaderboard to LeetCode’s contest ranking page</Bullet>
-                    <Bullet>Only available tool offering this feature for LeetCode, attracting 25+ users and 4.5+ rating on Chrome Web Store</Bullet>
+                    <Bullet>Only available tool offering this feature for LeetCode, attracting 30+ users and 4.5+ rating on Chrome Web Store</Bullet>
                     <Bullet>Built a popup via LeetCode’s GraphQL API for friends’ latest updates; added waitForXPath for DOM handling</Bullet>
                     <Bullet>Optimized friends’ rank retrieval via chrome.storage.local caching and parallel requests (∼10 min → &lt;1 min)</Bullet>
                   </ul>

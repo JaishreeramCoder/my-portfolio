@@ -182,8 +182,7 @@ export default function Experience() {
                       Lookalike and Random Forest based model output
                     </Bullet>
                     <Bullet>
-                      Applied business rules and genetic-algorithm optimization to allocate HCPs to sales
-                      reps satisfying constraints
+                      Applied genetic-algorithm and linear programming to allocate HCPs to sales reps satisfying business constraints
                     </Bullet>
                     <Bullet>
                       Automated CI/CD via GitHub Actions to run Databricks jobs, providing weekly allocations
@@ -252,7 +251,14 @@ export default function Experience() {
                   <div className="w-full sm:flex-1 min-w-0">
                     <div className="text-xl sm:text-2xl font-extrabold text-slate-900 leading-tight break-words">
                       <span className="block">Software Development Intern</span>
-                      <span className="ml-0 sm:ml-3 text-lg font-semibold text-sky-600 block sm:inline">— Wager</span>
+                      <a 
+                        href="https://drive.google.com/file/d/121jKmKBUy3paBtoRm18VKDteTgxTEXbz/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="ml-0 sm:ml-3 text-lg font-semibold text-sky-600 hover:underline hover:text-sky-700 block sm:inline"
+                      >
+                        — Wager
+                      </a>
                     </div>
 
                     <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-slate-500 justify-center sm:justify-start w-full sm:w-auto whitespace-normal text-center sm:text-left">
