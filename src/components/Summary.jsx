@@ -33,7 +33,7 @@ export default function About() {
         <div className="prose prose-slate max-w-none text-slate-700 dark:prose-invert">
           <div className="mx-auto max-w-5xl text-center text-sm sm:text-base leading-relaxed space-y-6">
             <p>
-              Hi, I’m Adarsh, a Data Scientist at Axtria Ingenious Insights. I build machine-learning powered recommendation pipelines for pharma clients, focusing on scalable, production-ready systems.
+              Hi, I’m Adarsh, a Data Scientist at Axtria Ingenious Insights, where I am currently working on building a machine learning–powered NBA recommendation engine for a Fortune Global 500 pharmaceutical company.
             </p>
 
             <p>
