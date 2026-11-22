@@ -166,27 +166,46 @@ export default function Experience() {
                   <div className="font-semibold">NBA Recommendation System:</div>
                   <ul role="list" className="space-y-3 pl-0 list-none">
                     <Bullet>
-                      Built an RNN-based sales-lift prediction model in PyTorch for a Fortune Global 500
-                      pharmaceutical client
+                      Led the data science workstream for Gilead&rsquo;s Japan Next Best Action (NBA) solution, serving as
+                      primary client-facing POC for Japan and US stakeholders while coordinating with data warehousing,
+                      MLOps, and execution engine teams, driving ~<span className="font-medium">$100K</span> sales lift across{" "}
+                      <span className="font-medium">10K+</span> HCPs
                     </Bullet>
                     <Bullet>
-                      Integrated the model into a 200+ task NBA recommendation engine, reducing end-to-end
-                      pipeline runtime by <span className="font-medium">20%</span>
+                      Performed exploratory data analysis on large-scale pharma data and engineered features in PySpark
+                      that were reused across downstream NBA modules
                     </Bullet>
                     <Bullet>
-                      Ingested <span className="font-medium">100+</span> Hive tables (1M+ rows each) into Unity
-                      Catalog; engineered features using PySpark for training
+                      Built an XGBoost-based account-breaking module that disaggregates HCO-level sales into HCP-level
+                      sales (R&sup2; score of <span className="font-medium">81%</span>), enabling HCP-level targeting in the
+                      NBA solution
                     </Bullet>
                     <Bullet>
-                      Imputed lift for ~<span className="font-medium">20%</span> missing HCPs by combining NCF +
-                      Lookalike and Random Forest based model output
+                      Developed a weekly HCP promotion channel allocation module using PyTorch Transformer, Genetic
+                      Algorithm, and Linear Programming (PuLP) to maximize predicted sales lift under rep capacity and
+                      business-rule constraints
                     </Bullet>
                     <Bullet>
-                      Applied genetic-algorithm and linear programming to allocate HCPs to sales reps satisfying business constraints
+                      Contributed to the NBA SDK framework by identifying and resolving key issues in Databricks workflows
+                      (including repair run issues) and Python wheel file management
                     </Bullet>
                     <Bullet>
-                      Automated CI/CD via GitHub Actions to run Databricks jobs, providing weekly allocations
-                      affecting <span className="font-medium">100k+</span> HCPs
+                      Implemented the Explainable AI (XAI) layer of the Enhanced Messaging module using XGBoost and
+                      row-level SHAP values to dynamically rank top-3 KPI drivers per HCP, triggering downstream GenAI
+                      workflows via AWS EventBridge to generate personalized rep messages
+                    </Bullet>
+                    <Bullet>
+                      Reduced the overall runtime cost of the US Trodelvy NBA workflow by{" "}
+                      <span className="font-medium">20%</span> by optimizing PySpark queries, implementing smart caching,
+                      and refactoring code structure
+                    </Bullet>
+                    <Bullet>
+                      Created a structured KT plan for onboarding new NBA team members, with{" "}
+                      <span className="font-medium">5+ hours</span> of video walkthroughs and Confluence documentation,
+                      along with structured documentation on using Databricks in VS Code
+                    </Bullet>
+                    <Bullet>
+                      Twice nominated for Axtria&rsquo;s Bravo Award, given each quarter to the top performers in the LOB
                     </Bullet>
                   </ul>
                   <div className="font-medium text-sm text-slate-700 mb-2">Technologies:</div>
@@ -196,26 +215,6 @@ export default function Experience() {
                     <TechPill>PyTorch</TechPill>
                     <TechPill>MLFlow</TechPill>
                     <TechPill>GitHub Actions</TechPill>
-                  </div>
-
-                  <div className="font-semibold mt-3">GenAI SQL Assistant (POC)</div>
-                  <ul role="list" className="space-y-3 pl-0 list-none">
-                    <Bullet>
-                      Built a schema-aware NL→SQL engine using LLMs and hybrid RAG retrieval for reliable
-                      database querying
-                    </Bullet>
-                    <Bullet>
-                      Built a Streamlit UI with admin login for secure DB updates; integrated a KG checker
-                      boosting accuracy by <span className="font-medium">30%</span>
-                    </Bullet>
-                  </ul>
-                  <div className="font-medium text-sm text-slate-700 mt-3 mb-2">Technologies:</div>
-                  <div className="flex flex-wrap">
-                    <TechPill>LangChain</TechPill>
-                    <TechPill>Streamlit</TechPill>
-                    <TechPill>RAG</TechPill>
-                    <TechPill>Knowledge Graph</TechPill>
-                    <TechPill>SQLite</TechPill>
                   </div>
                 </div>
               </article>
