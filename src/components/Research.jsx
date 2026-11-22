@@ -249,10 +249,15 @@ export default function Research() {
 
                 <div className="mt-6 space-y-2 text-slate-700">
                   <ul role="list" className="space-y-2 pl-0 list-none">
-                    <Bullet>Built resource-efficient PPO-based RLHF pipelines and evaluated DPO to align LLMs with human preferences</Bullet>
-                    <Bullet>Fine-tuned LLaMA 3.1 8B with QLoRA adapters on OpenAI summary dataset, boosting ROUGE-1 score to 0.19</Bullet>
-                    <Bullet>Compared reward models (100M–8B) using Hugging Face TRL; found Gemma 2B most efficient and competitive</Bullet>
-                    <Bullet>Applied PPO-based RLHF to refine the supervised model, increasing its average reward score from 5.42 to 5.62</Bullet>
+                    <Bullet>
+                      Built an end-to-end RLHF pipeline for Reddit TL;DR summarization dataset using Hugging Face TRL and
+                      PEFT libraries, supervised fine-tuning LLaMA 3.1 8B with QLoRA (4-bit) to achieve{" "}
+                      <span className="font-medium">0.29</span> ROUGE-1
+                    </Bullet>
+                    <Bullet>
+                      Trained a LLaMA 3.1 8B reward model and applied PPO to align the SFT policy with human preferences
+                      for conciseness and relevance
+                    </Bullet>
                   </ul>
                 </div>
               </article>
