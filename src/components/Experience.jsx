@@ -287,13 +287,12 @@ export default function Experience() {
                     <TechPill>Python</TechPill>
                     <TechPill>Aiogram</TechPill>
                     <TechPill>TON SDK</TechPill>
+                    <TechPill>JavaScript</TechPill>
                     <TechPill>AWS</TechPill>
-                    <TechPill>Firebase</TechPill>
                   </div>
                 </div>
               </article>
             </div>
-
           </div>
         </div>
       </div>
