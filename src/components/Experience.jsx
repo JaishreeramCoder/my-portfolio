@@ -274,17 +274,14 @@ export default function Experience() {
                   </div>
                 </header>
                 <div className="mt-6 space-y-2 text-slate-700">
-                  <ul role="list" className="space-y-3 pl-0 list-none">
-                    <Bullet>
-                      Architected backend for a Python Telegram bot using Bet365 API data for sports betting, scalable to 10k RPS
-                    </Bullet>
-                    <Bullet>
-                      Centralized API calls, event fetching, and bet placement using runtime memory and caching to enhance efficiency
-                    </Bullet>
-                    <Bullet>
-                      Designed a secure TON Wallet service in the bot using <code>ton-sdk</code>, managing deposits, withdrawals, and bet transactions
-                    </Bullet>
-                  </ul>
+                 <ul role="list" className="space-y-3 pl-0 list-none">
+                  <Bullet>
+                    Worked on the backend of a Python (aiogram) Telegram bot for sports betting, serving live match events and odds sourced from the Bet365 API
+                  </Bullet>
+                  <Bullet>
+                    Implemented in-memory caching of Bet365 API responses to reduce redundant API calls and speed up responses to users
+                  </Bullet>
+                </ul>
                   <div className="font-medium text-sm text-slate-700 mt-3 mb-2">Technologies:</div>
                   <div className="flex flex-wrap">
                     <TechPill>Python</TechPill>
